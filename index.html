@@ -12,8 +12,10 @@
     <header>
         <!-- Added actual header instead of div class -->
         <div class="header-container">
-            <h1>Hori<span class="seo">seo</span>n</h1>
-            <div>
+            <!-- changed from class seo to id seo -->
+            <h1>Hori<span id="seo">seo</span>n</h1>
+            <!-- Encased web links in nav bar. -->
+            <nav>
                 <ul>
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -25,13 +27,18 @@
                         <a href="#social-media-marketing">Social Media Marketing</a>
                     </li>
                 </ul>
-            </div>
+
+            </nav>
         </div>
     </header>
-    <div class="hero"></div>
-    <div class="content">
+
+    <div id="hero"></div>
+    <!-- changed from hero to id -->
+    <section class="content">
+        <!-- Changed div content to a section content-->
         <!-- Fixed id so that the link works. -->
-        <div class="search-engine-optimization" id="search-engine-optimization">
+        <!-- Replaced div classes of links with IDs + in CSS -->
+        <div id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -40,25 +47,28 @@
                 your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <div id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an
-                internet connection to say whatever they want about your business. Online Reputation Management gives
+                internet connection to say whatever they want about your business. Online Reputation Management
+                gives
                 you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <div id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps
+                you
                 determine which platforms are suited to your brand, using analytics to find the right markets and
                 increase your lead generation.
             </p>
         </div>
-    </div>
+
+    </section>
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
