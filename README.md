@@ -2,10 +2,11 @@
 
 ## References
 
-| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) |
-| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |
-| Git | [https://git-scm.com/](https://git-scm.com/)     |
-| Maintainable CSS | [https://maintainablecss.com/chapters/semantics/](https://maintainablecss.com/chapters/semantics/)     |
+| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+| Maintainable CSS | [https://maintainablecss.com/chapters/semantics/](https://maintainablecss.com/chapters/semantics/)
 
 
 ## Description
@@ -30,7 +31,7 @@ Consolidated repetitive CSS code, changed HTML code to take advantage of consoli
 Actually has a title now.
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 
 * [Installation](#installation)
