@@ -25,7 +25,7 @@ body {
 }
 
 /* Changed links contained in the div to a nav. */
-.header-container nav {
+.header-container #navbox {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header-container nav ul {
+.header-container #navbox ul {
     list-style-type: none;
 }
 
-.header-container nav ul li {
+.header-container #navbox ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -107,6 +107,7 @@ p {
     max-width: 150px;
 }
 
+/* Changed container to specify navbox. */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,13 +162,16 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #2a607c;
 }
 
-.footer h2 {
+/* Added bg color so that the text appears. */
+
+footer h2 {
     font-size: 20px;
 }
