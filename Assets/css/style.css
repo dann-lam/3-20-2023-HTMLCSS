@@ -108,7 +108,8 @@ p {
 }
 
 /* Changed container to specify navbox. */
-#search-engine-optimization {
+
+#content-interior {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -117,50 +118,23 @@ p {
     color: #ffffff;
 }
 
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* Consolidated SEO, online reputation management, social media marketing to one ID. */
 
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-#search-engine-optimization img {
+#content-interior img {
     max-height: 200px;
 }
 
-#online-reputation-management img {
-    max-height: 200px;
-}
+/* Consolidated multiple content classes to one ID. */
 
-#social-media-marketing img {
-    max-height: 200px;
-}
 
-#search-engine-optimization h2 {
+#content-interior h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Consolidated multiple content headings to one. */
 
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
     padding: 30px;
