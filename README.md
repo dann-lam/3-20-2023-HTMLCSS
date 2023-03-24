@@ -10,21 +10,24 @@
 
 ## Description
 
-[Visit me!](https://google.com)
+[Horiseon](https://google.com)
 
 The Horiseon webpage... except...
 
-Improved features! More semantic elements! And more!!
+Refactored! More semantic elements!
 
-Refactored existing code, with better assesability and long term sustainability. Links are confirmed to work and CSS properties have been consolidated. SEO optimized! (I think)
+Refactored existing code, with better assesability and long(er) term sustainability. Links are confirmed to work and CSS properties have been consolidated.
 
-The previous website is alright, but not formatted correctly, this way the website is more accessible to users and is much easier to upgrade or change in future additions.
+Changes of generic div sections to Nav, Sidebars, and Articles + footers.
 
-Main changes were changing of generic div sections to Nav, Sidebars, and Articles + footers.
+Classes and IDs changed to better reflect better semantics.
+
+Icons and images have title attributes.
+
 
 Consolidated repetitive CSS code, changed HTML code to take advantage of consolidated IDs.
 
-ACTUALLY HAS A TITLE NOW.
+Actually has a title now.
 
 
 ## Table of Contents (Optional)

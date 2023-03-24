@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon SEO Management</title>
+    <title>Horiseon SEO</title>
     <!-- Changed Title to Horiseon -->
 </head>
 
@@ -35,17 +35,18 @@
         </div>
     </header>
 
-    <div id="hero-image" title="Hero Image"></div>
+    <div id="hero-image" title="Peeps be SEOing"></div>
     <!-- changed from hero to id, changed name -->
 
-    <section class="content">
+    <section class="main-content">
         <!-- Changed div content to a section content-->
         <!-- Fixed id so that the link works. -->
         <!-- Replaced div classes of links with IDs + in CSS, consolidated the ID. -->
         <!-- Replaced divs with articles, consolidated in CSS. -->
-        <article>
-            <!-- Article no longer has a specific ID, might be bad, but is more efficient this way. -->
-            <img src="./assets/images/search-engine-optimization.jpg" title="SEO Image" id="content-float-left" />
+        <article id="search-engine-optimization">
+            <!-- Added Article IDs -->
+            <img src="./assets/images/search-engine-optimization.jpg" title="SEO Image"
+                id="content-float-left-helper" />
             <!-- Added alt comments to images. -->
             <h2>Search Engine Optimization</h2>
             <!-- Added titles to each P tag. -->
@@ -55,9 +56,9 @@
                 your visibility and find the right customers for your business.
             </p>
         </article>
-        <article>
+        <article id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" title="Online Reputation Image"
-                id="content-float-right" />
+                id="content-float-right-helper" />
             <!-- changed float classes to IDs -->
             <h2>Online Reputation Management</h2>
             <p title="Online Reputation Management">
@@ -67,9 +68,9 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article>
+        <article id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" title="Social Media Marketing Image"
-                id="content-float-left" />
+                id="content-float-left-helper" />
             <!-- Added accessibility titles to each image. -->
             <h2>Social Media Marketing</h2>
             <p title="Social Media Marketing">
@@ -81,13 +82,12 @@
         </article>
 
     </section>
-    <aside class="benefits">
+    <aside class="benefits-container">
         <!-- Consolidated classes to IDs and assigned them a consolidated CSS. Changed it from a div to an aside.-->
 
         <section id="benefit-interior">
-            <!-- Removed repetitive divs Arguably, they would be necessary for separation sake.. -->
-            <!-- Reintergrated divs for future content.-->
-            <div>
+            <!-- Changed divs to articles. -->
+            <article>
                 <h3>Lead Generation</h3>
                 <img title="Lead Generation Icon" src="./assets/images/lead-generation.png" />
                 <p title="Lead Generation">
@@ -95,8 +95,8 @@
                     directly
                     to your website.
                 </p>
-            </div>
-            <div>
+            </article>
+            <article>
                 <h3>Brand Awareness</h3>
                 <img title="Brand Awareness Icon" src="./assets/images/brand-awareness.png" />
                 <p title="Brand Awareness">
@@ -104,9 +104,9 @@
                     visibility
                     for your business.
                 </p>
-            </div>
+            </article>
 
-            <div>
+            <article>
                 <h3>Cost Management</h3>
                 <img title="Cost Management Icon" src="./assets/images/cost-management.png"></img>
                 <p title="Cost Management">
@@ -114,7 +114,7 @@
                     longer
                     need to advertise your page.
                 </p>
-            </div>
+            </article>
 
         </section>
     </aside>
