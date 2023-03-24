@@ -20,6 +20,12 @@ Refactored existing code, with better assesability and long term sustainability.
 
 The previous website is alright, but not formatted correctly, this way the website is more accessible to users and is much easier to upgrade or change in future additions.
 
+Main changes were changing of generic div sections to Nav, Sidebars, and Articles + footers.
+
+Consolidated repetitive CSS code, changed HTML code to take advantage of consolidated IDs.
+
+ACTUALLY HAS A TITLE NOW.
+
 
 ## Table of Contents (Optional)
 

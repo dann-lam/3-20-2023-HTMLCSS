@@ -33,6 +33,7 @@ body {
     font-size: 20px;
 }
 
+/* Changed container to specify navbox. */
 .header-container #navbox ul {
     list-style-type: none;
 }
@@ -51,7 +52,7 @@ p {
     font-size: 16px;
 }
 
-#hero {
+#hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,21 +61,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 .benefits {
     margin-right: 20px;
@@ -91,8 +78,8 @@ p {
 #benefit-interior div {
     margin-bottom: 32px;
     color: #ffffff;
-}
 
+}
 
 
 #benefit-interior div h3 {
@@ -107,9 +94,25 @@ p {
     max-width: 150px;
 }
 
-/* Changed container to specify navbox. */
 
-#content-interior {
+/*Moved content related items down here*/
+#content-float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+#content-float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -118,22 +121,22 @@ p {
     color: #ffffff;
 }
 
-/* Consolidated SEO, online reputation management, social media marketing to one ID. */
+/* Consolidated SEO, online reputation management, social media marketing to one selection */
 
 
-#content-interior img {
+.content article img {
     max-height: 200px;
 }
 
-/* Consolidated multiple content classes to one ID. */
+/* Consolidated multiple content classes to one selection */
 
 
-#content-interior h2 {
+.content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Consolidated multiple content headings to one. */
+/* Consolidated multiple content headings to one selection. */
 
 
 footer {
@@ -144,7 +147,7 @@ footer {
     background-color: #2a607c;
 }
 
-/* Added bg color so that the text appears. */
+/* Added bg color to the footer so that the text appears. */
 
 footer h2 {
     font-size: 20px;
